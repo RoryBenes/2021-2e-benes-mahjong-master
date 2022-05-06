@@ -330,6 +330,7 @@ while running:
             if event.key == pygame.K_ESCAPE:
                 pass
         elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+            
             if SCENA == "hra":
                 different_patro_interaction = False
                 for x in range(2):
